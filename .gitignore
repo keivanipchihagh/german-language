@@ -1,0 +1,3 @@
+# Textbook scans are copyrighted: keep them out of the (public) repository
+*.pdf
+.DS_Store

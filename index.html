@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>German Word Quiz</title>
+  <meta name="description" content="Practise German vocabulary from A1.1 to A2.2: articles, plurals, meanings, perfect tense and example sentences.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap bar">
+      <a class="brand" href="#" id="brand">German Word Quiz</a>
+      <nav id="nav" aria-label="Main">
+        <button data-view="practise" class="active">Practise</button>
+        <button data-view="browse">Vocabulary</button>
+        <button data-view="progress">Progress</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="app" aria-live="polite"></main>
+
+  <footer class="wrap foot">
+    Vocabulary from the Menschen A1.1–A2.2 study notes. Your progress is saved only in this browser.
+  </footer>
+
+  <noscript><p class="wrap">This quiz needs JavaScript.</p></noscript>
+  <script src="data/vocabulary.js"></script>
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
